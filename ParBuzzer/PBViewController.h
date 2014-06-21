@@ -10,4 +10,5 @@
 
 @interface PBViewController : UIViewController
 
+- (IBAction)parButtonPressed:(UIButton *)sender;
 @end

@@ -20,10 +20,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
+
+- (IBAction)parButtonPressed:(UIButton *)sender {
+    
+    UIAlertView *par = [[UIAlertView alloc] initWithTitle:@"Buzz" message:@"Scott got a Par" delegate:nil cancelButtonTitle:@"High Five" otherButtonTitles:nil, nil];
+    [par show];
+}
 @end
