@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E753987C1955F5A100DFE725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E753987B1955F5A100DFE725 /* Foundation.framework */; };
+		E753987E1955F5A100DFE725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E753987D1955F5A100DFE725 /* CoreGraphics.framework */; };
+		E75398801955F5A100DFE725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E753987F1955F5A100DFE725 /* UIKit.framework */; };
+		E75398861955F5A100DFE725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E75398841955F5A100DFE725 /* InfoPlist.strings */; };
+		E75398881955F5A100DFE725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E75398871955F5A100DFE725 /* main.m */; };
+		E753988C1955F5A100DFE725 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E753988B1955F5A100DFE725 /* PBAppDelegate.m */; };
+		E753988F1955F5A100DFE725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E753988D1955F5A100DFE725 /* Main.storyboard */; };
+		E75398921955F5A100DFE725 /* PBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75398911955F5A100DFE725 /* PBViewController.m */; };
+		E75398941955F5A100DFE725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75398931955F5A100DFE725 /* Images.xcassets */; };
+		E753989B1955F5A100DFE725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E753989A1955F5A100DFE725 /* XCTest.framework */; };
+		E753989C1955F5A100DFE725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E753987B1955F5A100DFE725 /* Foundation.framework */; };
+		E753989D1955F5A100DFE725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E753987F1955F5A100DFE725 /* UIKit.framework */; };
+		E75398A51955F5A100DFE725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E75398A31955F5A100DFE725 /* InfoPlist.strings */; };
+		E75398A71955F5A100DFE725 /* ParBuzzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E75398A61955F5A100DFE725 /* ParBuzzerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E753989E1955F5A100DFE725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E75398701955F5A100DFE725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E75398771955F5A100DFE725;
+			remoteInfo = ParBuzzer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E75398781955F5A100DFE725 /* ParBuzzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParBuzzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E753987B1955F5A100DFE725 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E753987D1955F5A100DFE725 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E753987F1955F5A100DFE725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E75398831955F5A100DFE725 /* ParBuzzer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParBuzzer-Info.plist"; sourceTree = "<group>"; };
+		E75398851955F5A100DFE725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E75398871955F5A100DFE725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E75398891955F5A100DFE725 /* ParBuzzer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParBuzzer-Prefix.pch"; sourceTree = "<group>"; };
+		E753988A1955F5A100DFE725 /* PBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBAppDelegate.h; sourceTree = "<group>"; };
+		E753988B1955F5A100DFE725 /* PBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBAppDelegate.m; sourceTree = "<group>"; };
+		E753988E1955F5A100DFE725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E75398901955F5A100DFE725 /* PBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBViewController.h; sourceTree = "<group>"; };
+		E75398911955F5A100DFE725 /* PBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBViewController.m; sourceTree = "<group>"; };
+		E75398931955F5A100DFE725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E75398991955F5A100DFE725 /* ParBuzzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParBuzzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E753989A1955F5A100DFE725 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E75398A21955F5A100DFE725 /* ParBuzzerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParBuzzerTests-Info.plist"; sourceTree = "<group>"; };
+		E75398A41955F5A100DFE725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E75398A61955F5A100DFE725 /* ParBuzzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParBuzzerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E75398751955F5A100DFE725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E753987E1955F5A100DFE725 /* CoreGraphics.framework in Frameworks */,
+				E75398801955F5A100DFE725 /* UIKit.framework in Frameworks */,
+				E753987C1955F5A100DFE725 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75398961955F5A100DFE725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E753989B1955F5A100DFE725 /* XCTest.framework in Frameworks */,
+				E753989D1955F5A100DFE725 /* UIKit.framework in Frameworks */,
+				E753989C1955F5A100DFE725 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E753986F1955F5A100DFE725 = {
+			isa = PBXGroup;
+			children = (
+				E75398811955F5A100DFE725 /* ParBuzzer */,
+				E75398A01955F5A100DFE725 /* ParBuzzerTests */,
+				E753987A1955F5A100DFE725 /* Frameworks */,
+				E75398791955F5A100DFE725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E75398791955F5A100DFE725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75398781955F5A100DFE725 /* ParBuzzer.app */,
+				E75398991955F5A100DFE725 /* ParBuzzerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E753987A1955F5A100DFE725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E753987B1955F5A100DFE725 /* Foundation.framework */,
+				E753987D1955F5A100DFE725 /* CoreGraphics.framework */,
+				E753987F1955F5A100DFE725 /* UIKit.framework */,
+				E753989A1955F5A100DFE725 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E75398811955F5A100DFE725 /* ParBuzzer */ = {
+			isa = PBXGroup;
+			children = (
+				E753988A1955F5A100DFE725 /* PBAppDelegate.h */,
+				E753988B1955F5A100DFE725 /* PBAppDelegate.m */,
+				E753988D1955F5A100DFE725 /* Main.storyboard */,
+				E75398901955F5A100DFE725 /* PBViewController.h */,
+				E75398911955F5A100DFE725 /* PBViewController.m */,
+				E75398931955F5A100DFE725 /* Images.xcassets */,
+				E75398821955F5A100DFE725 /* Supporting Files */,
+			);
+			path = ParBuzzer;
+			sourceTree = "<group>";
+		};
+		E75398821955F5A100DFE725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75398831955F5A100DFE725 /* ParBuzzer-Info.plist */,
+				E75398841955F5A100DFE725 /* InfoPlist.strings */,
+				E75398871955F5A100DFE725 /* main.m */,
+				E75398891955F5A100DFE725 /* ParBuzzer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E75398A01955F5A100DFE725 /* ParBuzzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E75398A61955F5A100DFE725 /* ParBuzzerTests.m */,
+				E75398A11955F5A100DFE725 /* Supporting Files */,
+			);
+			path = ParBuzzerTests;
+			sourceTree = "<group>";
+		};
+		E75398A11955F5A100DFE725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75398A21955F5A100DFE725 /* ParBuzzerTests-Info.plist */,
+				E75398A31955F5A100DFE725 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E75398771955F5A100DFE725 /* ParBuzzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75398AA1955F5A100DFE725 /* Build configuration list for PBXNativeTarget "ParBuzzer" */;
+			buildPhases = (
+				E75398741955F5A100DFE725 /* Sources */,
+				E75398751955F5A100DFE725 /* Frameworks */,
+				E75398761955F5A100DFE725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParBuzzer;
+			productName = ParBuzzer;
+			productReference = E75398781955F5A100DFE725 /* ParBuzzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E75398981955F5A100DFE725 /* ParBuzzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75398AD1955F5A100DFE725 /* Build configuration list for PBXNativeTarget "ParBuzzerTests" */;
+			buildPhases = (
+				E75398951955F5A100DFE725 /* Sources */,
+				E75398961955F5A100DFE725 /* Frameworks */,
+				E75398971955F5A100DFE725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E753989F1955F5A100DFE725 /* PBXTargetDependency */,
+			);
+			name = ParBuzzerTests;
+			productName = ParBuzzerTests;
+			productReference = E75398991955F5A100DFE725 /* ParBuzzerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E75398701955F5A100DFE725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Webolution, Inc.";
+				TargetAttributes = {
+					E75398981955F5A100DFE725 = {
+						TestTargetID = E75398771955F5A100DFE725;
+					};
+				};
+			};
+			buildConfigurationList = E75398731955F5A100DFE725 /* Build configuration list for PBXProject "ParBuzzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E753986F1955F5A100DFE725;
+			productRefGroup = E75398791955F5A100DFE725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E75398771955F5A100DFE725 /* ParBuzzer */,
+				E75398981955F5A100DFE725 /* ParBuzzerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E75398761955F5A100DFE725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75398941955F5A100DFE725 /* Images.xcassets in Resources */,
+				E75398861955F5A100DFE725 /* InfoPlist.strings in Resources */,
+				E753988F1955F5A100DFE725 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75398971955F5A100DFE725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75398A51955F5A100DFE725 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E75398741955F5A100DFE725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E753988C1955F5A100DFE725 /* PBAppDelegate.m in Sources */,
+				E75398921955F5A100DFE725 /* PBViewController.m in Sources */,
+				E75398881955F5A100DFE725 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75398951955F5A100DFE725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75398A71955F5A100DFE725 /* ParBuzzerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E753989F1955F5A100DFE725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E75398771955F5A100DFE725 /* ParBuzzer */;
+			targetProxy = E753989E1955F5A100DFE725 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E75398841955F5A100DFE725 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75398851955F5A100DFE725 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E753988D1955F5A100DFE725 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E753988E1955F5A100DFE725 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E75398A31955F5A100DFE725 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75398A41955F5A100DFE725 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E75398A81955F5A100DFE725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E75398A91955F5A100DFE725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E75398AB1955F5A100DFE725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParBuzzer/ParBuzzer-Prefix.pch";
+				INFOPLIST_FILE = "ParBuzzer/ParBuzzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E75398AC1955F5A100DFE725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParBuzzer/ParBuzzer-Prefix.pch";
+				INFOPLIST_FILE = "ParBuzzer/ParBuzzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E75398AE1955F5A100DFE725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ParBuzzer.app/ParBuzzer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParBuzzer/ParBuzzer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ParBuzzerTests/ParBuzzerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E75398AF1955F5A100DFE725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ParBuzzer.app/ParBuzzer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParBuzzer/ParBuzzer-Prefix.pch";
+				INFOPLIST_FILE = "ParBuzzerTests/ParBuzzerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E75398731955F5A100DFE725 /* Build configuration list for PBXProject "ParBuzzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75398A81955F5A100DFE725 /* Debug */,
+				E75398A91955F5A100DFE725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75398AA1955F5A100DFE725 /* Build configuration list for PBXNativeTarget "ParBuzzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75398AB1955F5A100DFE725 /* Debug */,
+				E75398AC1955F5A100DFE725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E75398AD1955F5A100DFE725 /* Build configuration list for PBXNativeTarget "ParBuzzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75398AE1955F5A100DFE725 /* Debug */,
+				E75398AF1955F5A100DFE725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E75398701955F5A100DFE725 /* Project object */;
+}
