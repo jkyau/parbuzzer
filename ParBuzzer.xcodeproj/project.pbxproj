@@ -31,6 +31,7 @@
 		E75398BF1955FDBB00DFE725 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75398BE1955FDBB00DFE725 /* Security.framework */; };
 		E75398C11955FDC300DFE725 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75398C01955FDC300DFE725 /* StoreKit.framework */; };
 		E75398C31955FDCD00DFE725 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75398C21955FDCD00DFE725 /* SystemConfiguration.framework */; };
+		E7E7D15119593938009CBC0E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E7D15019593938009CBC0E /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		E75398BE1955FDBB00DFE725 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		E75398C01955FDC300DFE725 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		E75398C21955FDCD00DFE725 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E7E7D15019593938009CBC0E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				E75398801955F5A100DFE725 /* UIKit.framework in Frameworks */,
 				E75398B11955FD4700DFE725 /* Parse.framework in Frameworks */,
 				E753987C1955F5A100DFE725 /* Foundation.framework in Frameworks */,
+				E7E7D15119593938009CBC0E /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +134,7 @@
 		E753987A1955F5A100DFE725 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E7E7D15019593938009CBC0E /* FacebookSDK.framework */,
 				E75398C21955FDCD00DFE725 /* SystemConfiguration.framework */,
 				E75398C01955FDC300DFE725 /* StoreKit.framework */,
 				E75398BE1955FDBB00DFE725 /* Security.framework */,
@@ -240,6 +244,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Webolution, Inc.";
 				TargetAttributes = {
+					E75398771955F5A100DFE725 = {
+						DevelopmentTeam = 73KLN2H93G;
+					};
 					E75398981955F5A100DFE725 = {
 						TestTargetID = E75398771955F5A100DFE725;
 					};
@@ -358,8 +365,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.webolution.ParBuzzer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.webolution.ParBuzzer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Scott Bedard (8LR2THBPTC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Scott Bedard (8LR2THBPTC)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -375,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -397,8 +404,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.webolution.ParBuzzer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.webolution.ParBuzzer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Scott Bedard (8LR2THBPTC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Scott Bedard (8LR2THBPTC)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -408,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -419,14 +426,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/scottbedard/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParBuzzer/ParBuzzer-Prefix.pch";
 				INFOPLIST_FILE = "ParBuzzer/ParBuzzer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -436,14 +447,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/scottbedard/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParBuzzer/ParBuzzer-Prefix.pch";
 				INFOPLIST_FILE = "ParBuzzer/ParBuzzer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -507,6 +522,7 @@
 				E75398AC1955F5A100DFE725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E75398AD1955F5A100DFE725 /* Build configuration list for PBXNativeTarget "ParBuzzerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +531,7 @@
 				E75398AF1955F5A100DFE725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

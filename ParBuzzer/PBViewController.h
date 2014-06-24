@@ -10,5 +10,11 @@
 
 @interface PBViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *golfersNameLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *fbProfileImage;
+
 - (IBAction)parButtonPressed:(UIButton *)sender;
+- (IBAction)fbButtonPressed:(UIButton *)sender;
+- (IBAction)birdieButtonPressed:(UIButton *)sender;
+- (IBAction)coorslightButtonPressed:(UIButton *)sender;
 @end
