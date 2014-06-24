@@ -23,11 +23,13 @@
 }
 
 -(void) sendNotification: (NSString *)message{
-    // Send a notification to all devices subscribed to the "Giants" channel.
-    PFPush *push = [[PFPush alloc] init];
-    [push setChannel:@"labaladeplata"];
-    [push setMessage:message];
-    [push sendPushInBackground];
+    if([[PFUser currentUser] isAuthenticated]){
+        // Send a notification to all devices subscribed to this playa channel.
+        PFPush *push = [[PFPush alloc] init];
+        [push setChannel:@"labaladeplata"];
+        [push setMessage:message];
+        [push sendPushInBackground];
+    }
 }
 
 - (IBAction)parButtonPressed:(UIButton *)sender {
@@ -40,6 +42,10 @@
 
 - (IBAction)coorslightButtonPressed:(UIButton *)sender {
     [self sendNotification:[NSString stringWithFormat:@"%@ is being refreshed by a Coors Light!", [[PFUser currentUser] objectForKey:@"fullName"]]];
+}
+
+- (IBAction)havingfunButtonPressed:(UIButton *)sender {
+    [self sendNotification:[NSString stringWithFormat:@"%@ is having fun playing golf with Friends!", [[PFUser currentUser] objectForKey:@"fullName"]]];
 }
 
 - (IBAction)fbButtonPressed:(UIButton *)sender {

@@ -17,4 +17,5 @@
 - (IBAction)fbButtonPressed:(UIButton *)sender;
 - (IBAction)birdieButtonPressed:(UIButton *)sender;
 - (IBAction)coorslightButtonPressed:(UIButton *)sender;
+- (IBAction)havingfunButtonPressed:(UIButton *)sender;
 @end
